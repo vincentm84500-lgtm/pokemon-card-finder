@@ -83,7 +83,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   final TextEditingController _searchController = TextEditingController();
   final TcgApiService _apiService = TcgApiService();
-
+  
   String _selectedLanguage = 'FR';
   List<PokemonCard> _results = [];
   bool _isLoading = false;
